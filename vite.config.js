@@ -3,7 +3,7 @@ import glsl from 'vite-plugin-glsl'
 export default {
     root: 'src/',
     publicDir: '../static/',
-    base: process.env.production ? '/Raging-sea/' : './',
+    base: process.env.production ? '/' : './',
     server:
     {
         host: true, // Open to local network and display URL
